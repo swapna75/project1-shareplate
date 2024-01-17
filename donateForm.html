@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="donateForm.css">
+    <!-- <link rel="stylesheet" href="donateForm.js"> -->
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="totcontainer">
+        <div class="container">
+            
+            <img src="shareplatezoom1.jpg" alt="logo" id="logo"> 
+            <a href="main3.html"><div class="box">HOME</div></a>
+            <div class="box"> <a class="home" href="#footnav">ABOUT</a></div>
+            <!-- <div class="box">TOP</div> -->  
+            <div class="box"> <a class="home" href="#categorie">Join with us</a></div>     
+            <!-- <div class="box">SUPPORT</div> -->
+         </div> 
+         <div class="container2">
+            <div class="msg">
+             <center> <h3>"Let's treat food with respect and not waste it" - Massimo Bottura</h3></center>
+            <p style="font-family: Verdana, Geneva, Tahoma, sans-serif;">
+                Most cities in India have large landfills being filled up with edible food waste. 
+                Some cities food waste is actually 97% of the total solid waste.
+                 India wastes nearly 67 million and It amounts to Rs93,000 cr worth of food, which means it can feed the most populated state of Bihar for a complete year.
+            </p>
+            </div>
+            <form name="form1" action="donateserver.php" method="post">
+    <p style="margin-left: 50px;">Full Name:</p>
+    <input type="text" size="40" style="margin-left: 50px;" id="fname" name="fname" required>
+    <p style="margin-left: 50px;">Email Address:</p>
+    <input type="email" size="40" style="margin-left: 50px;" id="email" name="email" required>
+    <p style="margin-left: 50px;">Mobile Number:</p>
+    <input type="number" size="40" style="margin-left: 50px;" id="mobile" name="mobile" required>
+    <p style="margin-left: 50px;">Food Quantity:</p>
+    <textarea name="fquantity" cols="37" rows="2" style="margin-left: 50px;" required></textarea>
+    <p style="margin-left: 50px;">Total Quantity:</p>
+    <input type="number" size="40" style="margin-left: 50px;" id="tquantity" name="tquantity" required>
+    <p style="margin-left: 50px;">Address:</p>
+    <textarea name="address" cols="37" rows="2" style="margin-left: 50px;" required></textarea>
+
+    <button class="b" style="margin-left: 50px;" onclick="show()">Donate</button>
+</form>
+
+            <article class="slideshow">
+                <div class="mySlides fade">           
+                    <img src="https://indiafacts.org/wp-content/uploads/2015/11/map-127.jpg" alt="Image 1">
+                </div>
+        
+                <div class="mySlides fade">
+                    <img src="https://c.ndtvimg.com/2021-12/dveld19o_food-for-hunger-program_625x300_15_December_21.jpg?im=FaceCrop,algorithm=dnn,width=1200,height=800" alt="Image 2">
+                </div>
+        
+                <div class="mySlides fade">
+                    <img src="https://media.istockphoto.com/id/1181962948/photo/volunteers-scooping-the-food-to-share-with-the-needy-concept-of-providing-free-food-to.jpg?s=612x612&w=0&k=20&c=pWU0efeNYR58cEKMA7FlhGTUZY_NFytbJJ9XOxZe0HA=" alt="Image 3">
+                </div>
+                <p></p>
+                <p style="height: 10px;font-size: xx-large; margin-top: 420px; padding-left: 160px;">Every Donation Helps!</p>
+            </article>
+        </div>
+        <footer class="foot">
+            <img src="shareplatezoom1.jpg" alt="logo" id="logo1">
+            <div class="matter">
+                 Our mission is to reduce food waste and make a difference.  
+                Join us in the fight against food waste and hunger.  <br> <br>
+                 Support local initiatives and organizations dedicated to reducing food waste.  <br> <br>
+                 Together, we can make a positive impact on food waste and our environment.
+            </div>
+            <div class="footnav" id="footnav">
+            <ul >
+                <li><a href="main3.html" style="text-decoration: none; font-size: large; color: black;">Home</a></li> <br>
+                <li><a href="#" style="text-decoration: none; font-size: large; color: black;">About Us</a></li>    <br>     
+                <li><a href="#" style="text-decoration: none; font-size: large; color: black;">join with us</a></li>         
+            </ul></div>
+            <div class="share">
+               <span style="font-size: 50px; padding-left: 50px;"> &#128151</span>  
+                <span style="float: inline-start; margin-top: 20px; margin-left: 20px;">share this website</span>
+            </div>
+        </footer>
+    </div>    
+    <script src="donateForm.js"></script>      
+</body>
+</html>

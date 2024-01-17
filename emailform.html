@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Enter your email</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="total">
+        <div class="header">
+            <h2>Email</h2>
+        </div>
+         
+        <form method="post" action="emailserver.php" id="emailForm">
+            <div class="input-group">
+                <label>Email</label>
+                <input type="text" name="email">
+            </div>
+            
+            <div class="input-group">
+                <button type="submit" class="btn" name="submit_email">Submit</button>
+            </div>
+        </form>
+
+        <script>
+            document.getElementById("emailForm").addEventListener("submit", function(event) {
+                event.preventDefault();
+
+                // Clone only the email input from the original form
+                var emailInput = this.querySelector("input[name='email']").cloneNode(true);
+
+                // Create a new form and append the cloned email input
+                var xForm = document.createElement("form");
+                xForm.method = "post";
+                xForm.action = "x.php";
+                xForm.appendChild(emailInput);
+
+                // Use fetch API to check if the email is valid on the server side
+                fetch('emailserver.php', {
+                    method: 'POST',
+                    body: new FormData(xForm),
+                })
+                .then(response => response.json())
+                .then(data => {
+                    if (data.valid) {
+                        // If email is valid, submit the new form to x.php
+                        document.body.appendChild(xForm);
+                        xForm.submit();
+                    } else {
+                        // If email is invalid, show a popup message and redirect to emailform.html
+                        alert('Invalid Email');
+                        window.location.href = 'emailform.html';
+                    }
+                })
+                .catch(error => console.error('Error:', error));
+            });
+        </script>
+    </div>
+</body>
+</html>

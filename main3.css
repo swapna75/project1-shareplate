@@ -1,0 +1,310 @@
+body {
+    
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    
+    
+    /* background: rgb(191, 183, 234);
+    background:#000000; */
+    color: #407EF1; /* Set the font color to black */
+ 
+    }
+
+
+
+.m{
+  background-image: url(bg1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+
+
+
+.logo{
+    border-radius: 70px;
+    height: 70px;
+    width: 70px;
+    position:absolute;
+    left: 7px;   
+    top: 6px;
+}
+
+    .cute {
+        font-size: 26px;
+        font-weight: 600;
+        color: transparent;
+        /* background-image: linear-gradient(to right ,#553c9a, #ee4b2b, #00c2cb, #ff7f50, #553c9a); */
+        color: rgb(170, 239, 81);
+        font-family: 'Kalam', cursive;
+        -webkit-background-clip: text;
+        background-clip: text;    
+        background-size: 200%;
+        background-position: -200%;
+        animation: animated-gradient 2s infinite alternate-reverse;
+        /* border: 2px solid red; */
+        position: absolute;
+        left: 90px;
+        top: 25px;
+
+      }
+    .header {
+       /* background-color: rgba(21, 17, 17, 0.5); Dark green background color */
+       /* background-color: rgba(251, 7, 7, 0.5); */
+       background-color: rgb(255, 255, 255,0.5);
+      padding: 20px;
+      display: flex;
+      justify-content:center;
+      align-items: center;
+      font-size: 24px;
+      font-weight: bold;
+      cursor: pointer;
+      /* transition: color 0.3s ease; */
+      height: 39px;
+      /* border: 2px solid red; */
+      width: 1475px;
+
+      
+    }
+
+    .menu-options {
+      display: flex;
+      /* border: 2px solid red; */
+      position: absolute;
+      right: 2px;
+      top: 25px;
+    }
+
+    .menu-option {
+      color: whitesmoke;
+      font-family: 'Kalam', cursive;
+      font-size: 26px;
+      font-weight: 600;
+      margin-right: 20px;
+      cursor: pointer;
+      transition: color 0.3s ease;
+      font-size: 18px;
+    }
+
+    .menu-option:hover {
+      color: #66BB6A; /* Highlight color when hovered */
+    }
+
+    .contact-option {
+      cursor: pointer;
+      transition: color 0.3s ease;
+    }
+
+.center{
+    height:600px;
+    width:1516px;
+    /* background-color: white; */
+    /* left: 20px; */
+    /* border: 2px solid red; */
+}
+
+    .text {
+        position: absolute;
+        top: 350px;
+        left: 520px;
+        font-family: 'Kalam', cursive;
+
+        
+        transform: translate(-50%, -50%);
+        font-size: 24px;
+        color:rgb(255, 255, 255);
+        text-align: left;
+    }
+
+    .contact-option:hover {
+      color: #EDEDED; /* Highlight color when hovered */
+    }
+
+    .slogan {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 24px;
+      font-weight: bold;
+      color: #EDEDED;
+      cursor: pointer;
+      transition: color 0.3s ease;
+      text-align: left;
+      display: inline-block;
+    /* border: 2px solid black; */
+    position: absolute;
+    height: 120px;
+    }
+
+    header:hover {
+      cursor: pointer;
+    }
+
+    .section {
+      padding: 20px;
+      text-align: center;
+      margin: 20px auto;
+      background-color: #1E292B;
+    }
+
+    .highlight:hover {
+      color: blue;
+    }
+
+    .highlight {
+      font-weight: bold;
+      font-size: 18px;
+      color: #EDEDED;
+    }
+
+    .small-font {
+      font-size: 14px;
+      margin-top: 5px;
+      color: #EDEDED;
+    }
+
+    .big-font {
+      font-size: 24px;
+      font-weight: bold;
+      color: #EDEDED;
+    }
+
+    .description {
+      margin-top: 10px;
+      color: #EDEDED;
+    }
+
+    .how-it-works {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+      background-color: #1E292B;
+    }
+
+    .how-it-works img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    }
+
+    .food-facts {
+      padding: 20px;
+      color: #00ff0d;
+      /* background-color: rgb(191,183,234);
+      background: linear-gradient(90deg, rgba(191,183,234,1) 0%, rgba(57,240,183,1) 48%, rgba(88,108,253,1) 100%);; */
+      background-color: #ffffff;
+      opacity: .5;
+      /* border: 2px solid red; */
+      box-shadow: 0 3px 10px rgb(0 0 0 / 0.5);
+    }
+
+    .food-facts div {
+      font-size: 16px;
+      margin: 10px 0;
+      color: #EDEDED;
+    }
+
+    .testimonials {
+      padding: 20px;
+      text-align: center;
+     background: rgb(34,194,195);
+background: radial-gradient(circle, rgba(34,194,195,1) 0%, rgba(45,253,188,1) 68%);
+      font-family: 'Kalam', cursive;
+    }
+
+    .testimonials-heading {
+      font-size: 24px;
+      font-weight: bold;
+      color:#ffffff;
+      margin-bottom: 20px;
+    }
+
+    .testimonial {
+      padding: 20px;
+      border: 1px solid #4F6C6B;
+      border-radius: 10px;
+      background-color: rgb(255, 255, 255);
+      margin: 10px;
+      box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    }
+
+    .testimonial-text {
+      font-size: 18px;
+      color: #000000;
+      margin-bottom: 10px;
+    }
+
+    .testimonial-author {
+      font-size: 16px;
+      color: #000000;
+    }
+
+    .footer {
+      background-color: #000;
+      color: #EDEDED;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .footer a {
+      text-decoration: none;
+      color: #4F6C6B;
+      font-weight: bold;
+      margin: 0 10px;
+    }
+
+    .footer a:hover {
+      color: #1E292B;
+    }
+
+    .button-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      margin-top: 30px;
+    }
+
+    .aesthetic-button {
+      background: rgb(34,194,195);
+background: linear-gradient(0deg, rgba(34,194,195,1) 0%, rgba(45,253,188,1) 68%);
+      color: #EDEDED;
+      border: none;
+      padding: 15px 30px;
+      margin: 10px;
+      cursor: pointer;
+      font-size: 18px;
+      font-weight: bold;
+      border-radius: 8px;
+      transition: background-color 0.3s, transform 0.2s;
+      font-family: 'Kalam', cursive;
+    }
+
+    .aesthetic-button:hover {
+      background-color: #1E292B;
+      transform: scale(1.05);
+    }
+    
+
+    .how-it-works-step {
+      text-align: center;
+      padding: 20px;
+      background-color:#FFFFFF;
+      margin: 10px;
+      border-radius: 10px;
+      transition: background-color 0.3s;
+      font-family: 'Kalam', cursive;
+      /*opacity: .5;*/
+      /* border: 2px solid red; */
+      box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7); 
+      box-shadow: 0 3px 10px rgb(0 0 0 / 0.5);
+      
+      color: #000000;      
+    }
+
+
+    .contact-us:hover {
+      color: lightgreen;
+    }

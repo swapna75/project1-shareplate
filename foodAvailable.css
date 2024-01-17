@@ -1,0 +1,148 @@
+.body1{
+background: rgb(191,183,234);
+background: linear-gradient(90deg, rgba(191,183,234,1) 0%, rgba(57,240,183,1) 48%, rgba(88,108,253,1) 100%);
+}
+
+
+
+.totcontainer{
+    background: rgb(191,183,234);
+    background: linear-gradient(90deg, rgba(191,183,234,1) 0%, rgba(57,240,183,1) 48%, rgba(88,108,253,1) 100%);
+}
+
+/* ---------------------------------- */
+.container{
+    /* navbar */
+    background-color: rgba(21, 17, 17, 0.5);
+   
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   position: sticky;
+   top: 0px;
+   left: 0px;
+   right: 0px;
+}
+
+.home{
+    text-decoration: none; 
+     color: whitesmoke;
+    font-weight: bold;
+}
+
+.home:hover{
+    color:rgb(214,92,92) ;
+}
+
+
+.box{
+    /* elements in navbar */
+    color: whitesmoke;
+   font-weight: bold;
+    display:inline-flex;
+    margin: 30px 33px;
+    cursor: pointer;
+}
+.box:hover{
+    color: rgb(214, 92, 92);
+}
+
+#logo{
+    /* side image logo  */
+    border-radius: 70px;
+    height: 70px;
+    width: 70px;
+    position:absolute;
+    left: 2px;      
+} 
+/* ----------------------------------------------- */
+
+.cont{
+    /* border: 2px solid red; */
+    height: 130px;
+    margin-bottom: 5px;
+    width: 1000px;
+    margin-left: 250px;
+    border-radius: 10px;
+    margin-right: 100px;
+    background-color: rgb(245, 245, 245,0.6);
+    
+}
+
+.temp{
+    /* border: 2px solid blue; */
+    margin-left: 5px;
+    margin-top: 5px;
+    display:block;
+    width: 800px;
+    border-radius: 5px;
+}
+
+.button1{
+    margin-left: 5px;
+    margin-top: 7px;
+    border-radius: 5px;
+    background-color: rgba(191,183,234,1);
+}
+
+.b1{
+    text-decoration: none; 
+    color:black;
+}
+
+.button1:hover{
+    background-color: rgba(57,240,183,1);
+}
+
+.b1:hover{
+    color: whitesmoke;
+}
+
+/* footer  */
+.foot{
+    background-color: rgba(255, 255, 255, 0.5);
+    height: 170px;
+    background-image: linear-gradient(rgb(4, 3, 3,0.6),rgb(0, 0, 0,0));
+}
+
+.matter{
+    display: inline-block;
+    /* border: 2px solid black; */
+    position: absolute;
+    margin-top: 12px;
+    height: 120px;
+    margin-left: 30px;
+    padding-top: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footnav{
+    display: inline-block;
+    /* border: 2px solid red; */
+    position: absolute;
+    margin-top: 21px;
+    margin-left: 930px;
+    width: 150px;
+    
+}
+
+.share{
+    display: inline-block;
+    /* border: 2px solid brown; */
+    position: absolute;
+    margin-left: 1100px;
+    margin-top: 12px;
+    height: 120px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 25px;
+}
+
+#logo1{
+    height: 150px;
+    width: 150px;
+    margin-top: 10px;
+    margin-left: 30px;
+    display: inline-block;
+    /* border: 2px solid greenyellow; */
+}
+/* --------------------- */

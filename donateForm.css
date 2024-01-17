@@ -1,0 +1,195 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body{
+    background: rgb(191,183,234);
+background: linear-gradient(90deg, rgba(191,183,234,1) 0%, rgba(57,240,183,1) 48%, rgba(88,108,253,1) 100%);
+}
+
+.totcontainer{
+    background: rgb(191,183,234);
+background: linear-gradient(90deg, rgba(191,183,234,1) 0%, rgba(57,240,183,1) 48%, rgba(88,108,253,1) 100%);
+}
+
+.container{
+    /* navbar */
+    background-color: rgba(15, 9, 9, 0.5);
+   
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   position: static;
+   top: 0px;
+   left: 0px;
+   right: 0px;
+   margin-left: 0px;
+}
+
+#logo{
+    border-radius: 0px;
+    /* height: 70px;
+    width: 70px; */
+    position:absolute;
+    left: 2px;   
+}
+
+.home{
+    text-decoration: none; 
+     color: whitesmoke;
+    font-weight: bold;
+}
+
+.home:hover{
+    color:rgb(214,92,92) ;
+}
+
+.box{
+    /* elements in navbar */
+    color: whitesmoke;
+   font-weight: bold;
+    display:inline-flex;
+    margin: 20px 33px;
+    cursor: pointer;
+}
+
+
+#logo{
+    /* side image logo  */
+    border-radius: 70px;
+    height: 70px;
+    width: 70px;
+    position:absolute;
+    left: 2px;      
+} 
+/* ------------------------------- */
+
+.container2{
+    margin-left: 100px;
+    margin-right: 100px;
+    /* border: 2px solid rgb(187, 35, 50); */
+    padding: 10px;
+    height: 700px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.msg{
+    /* border: 2px solid blue; */
+    height: 125px;
+}
+
+.form{
+    /* border: 2px solid green; */
+    display: inline;
+    
+    /* margin-top: -200px; */
+    
+}
+/* article   */
+.slideshow{
+    max-width: 600px;
+    /* border: 2px solid red; */
+    margin-right: 80px;
+    float: right;
+    margin-left: 20px;
+    margin-top: -500px;
+    height: 500px;
+   
+}
+
+.mySlides{
+    float: right;
+    margin-left: 20px;
+}
+
+img {
+    width: 100%;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 3.0s;
+}
+
+@keyframes fade {
+    from {
+        opacity: 0.4;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+/* button */
+.b{
+    color: rgb(43, 169, 64);
+    font-size: x-large;
+    display: block;
+    height: 35px;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 50px;
+    margin-left: 90px;
+}
+.donate{
+    text-decoration: none;
+    color: rgb(148, 245, 87);
+    
+}
+
+.donate:hover{
+    color:whitesmoke;
+}
+
+.b:hover{
+    background-color: rgb(245, 118, 87);
+}
+
+#logo1{
+    height: 150px;
+    width: 150px;
+    margin-top: 10px;
+    margin-left: 30px;
+    display: inline-block;
+    /* border: 2px solid greenyellow; */
+}
+
+
+
+/* footer  */
+.foot{
+    background-color: rgba(255, 255, 255, 0.5);
+    height: 170px;
+    background-image: linear-gradient(rgb(4, 3, 3,0.6),rgb(0, 0, 0,0));
+}
+
+.matter{
+    display: inline-block;
+    /* border: 2px solid black; */
+    position: absolute;
+    margin-top: 12px;
+    height: 120px;
+    margin-left: 30px;
+    padding-top: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footnav{
+    display: inline-block;
+    /* border: 2px solid red; */
+    position: absolute;
+    margin-top: 21px;
+    margin-left: 930px;
+    width: 150px;
+    
+}
+
+.share{
+    display: inline-block;
+    /* border: 2px solid brown; */
+    position: absolute;
+    margin-left: 1100px;
+    margin-top: 12px;
+    height: 120px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 25px;
+}
