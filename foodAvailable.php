@@ -31,7 +31,7 @@ background: linear-gradient(90deg, rgba(191,183,234,1) 0%, rgba(57,240,183,1) 48
  <div class="totcontainer">
         <div class="container">
             <img src="images/shareplatezoom1.jpg" alt="image" id="logo"> 
-            <a href="main3.html"><div class="box">HOME</div></a>
+            <a href="index.html"><div class="box">HOME</div></a>
             <div class="box"> <a class="home" href="about.html">ABOUT</a></div>
             <!-- <div class="box">TOP</div> -->
             <div class="box"> <a class="home" href="#categorie"> Login</a></div>  
@@ -106,7 +106,7 @@ while ($row = $result->fetch_assoc()) {
             </div>
             <div class="footnav">
             <ul >
-                <li><a href="main3.html" style="text-decoration: none; font-size: large; color: black;">Home</a></li> <br>
+                <li><a href="index.html" style="text-decoration: none; font-size: large; color: black;">Home</a></li> <br>
                 <li><a href="#" style="text-decoration: none; font-size: large; color: black;">About Us</a></li>    <br>     
                 <li><a href="#" style="text-decoration: none; font-size: large; color: black;">join with us</a></li>         
             </ul></div>
