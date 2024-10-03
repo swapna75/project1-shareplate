@@ -30,7 +30,7 @@ background: linear-gradient(90deg, rgba(191,183,234,1) 0%, rgba(57,240,183,1) 48
     <div class="totcontainer">
         <div class="container">
             <img src="images/shareplatezoom1.jpg" alt="image" id="logo"> 
-            <a href="main3.html"><div class="box">HOME</div></a>
+            <a href="index.html"><div class="box">HOME</div></a>
             <div class="box"> <a class="home" href="about.html">ABOUT</a></div>
             <div class="box"> <a class="home" href="#categorie"> Login</a></div>  
         </div>
